@@ -7,6 +7,8 @@
 
 A Large-Scale Dataset for Long Text and Multi-Table Summarization
 
+Paper [link](https://aclanthology.org/2022.findings-emnlp.145/)
+
 ## License
 FINDSum is licensed under [ODC-BY](https://opendatacommons.org/licenses/by/1-0/).
 
@@ -18,11 +20,18 @@ Download from Google Drive [link](https://drive.google.com/drive/folders/1O8HwUO
 When using the FINDSum dataset in a product or service, or including data in a redistribution, please cite the following paper:
 
 ```
-@inproceedings{emnlp2022liusq,
-  title     = {Long Text and Multi-Table Summarization: Dataset and Method},
-  author    = {LIU, Shuaiqi and Cao, Jiannong and Yang, Ruosong and Wen, Zhiyuan},
-  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2022},
-  publisher = {Association for Computational Linguistics},
-  year      = {2022},
+@inproceedings{liu-etal-2022-long,
+    title = "Long Text and Multi-Table Summarization: Dataset and Method",
+    author = "Liu, Shuaiqi  and
+      Cao, Jiannong  and
+      Yang, Ruosong  and
+      Wen, Zhiyuan",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2022",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-emnlp.145",
+    pages = "1995--2010",
 }
 ```
