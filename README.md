@@ -35,3 +35,44 @@ When using the FINDSum dataset in a product or service, or including data in a r
     pages = "1995--2010",
 }
 ```
+
+## FAQ
+
+Q1: How to load these data files?
+
+A1: You can use pd.read_csv in pandas to load the text files and use json.loads to load the tuple files.
+
+```
+# load the text files
+import pandas as pd
+input_csv_file_path="TEXT_CSV_PATH"
+input_pd = pd.read_csv(input_csv_file_path, sep=',')
+
+
+# load the tuple files
+import json
+input_file_name="TUPLE_FILE_PATH"
+with open(input_file_name, 'r', encoding='UTF-8') as input_src_file:
+    input_src_lines = input_src_file.readlines()
+for input_src_line in input_src_lines:
+    input_json = json.loads(input_src_line)
+```
+
+Q2: What is the "story_separator_special_tag" and "replace_table_token_i_th"?
+
+A2: "story_separator_special_tag" separates input text segments. "replace_table_token_i_th" is the placeholder indicating the tables' location in text.
+
+Q3: Does each row in the text file correspond to one row (JSON) in the tuple file?
+
+A3: Yes
+
+Q4: What are the attributes of each tuple in the tuple file?
+
+A4: Each tuple in these file is [rowname_str, colname_str, cell_value_str, date_str, cell_row_index, cell_col_index]
+
+
+
+
+
+
+
