@@ -34,6 +34,17 @@ When using the FINDSum dataset in a product or service, or including data in a r
     url = "https://aclanthology.org/2022.findings-emnlp.145",
     pages = "1995--2010",
 }
+
+
+@article{liu2023neural,
+  title={Neural Abstractive Summarization for Long Text and Multiple Tables},
+  author={Liu, Shuaiqi and Cao, Jiannong and Deng, Zhongfen and Zhao, Wenting and Yang, Ruosong and Wen, Zhiyuan and Philip, S Yu},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  year={2023},
+  publisher={IEEE}
+}
+
+
 ```
 
 ## FAQ
